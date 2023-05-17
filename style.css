@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  background-color: #eed;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)),
+    url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 3%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 100px;
+}
+
+.nav-links {
+  margin-top: -50px;
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links ul li :hover {
+  color: #fa7e75;
+}
+.text-box {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 62px;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: white;
+}
+
+.plain-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.5s;
+}
+
+nav .fa {
+  display: none;
+}
+
+.header h3 {
+  color: white;
+  position: absolute;
+  transform: translate(-50%);
+  margin-top: 80px;
+  left: 50%;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+/* --------- user ------- */
+
+.user {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.user-col {
+  margin: 0px 20px;
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: 1rem;
+  text-align: left;
+  background: #fff3f3;
+  padding: 35px;
+  padding-left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s;
+}
+
+.user-col img {
+  margin-top: 20px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.user-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.user-col p {
+  padding: 0;
+}
+
+.user-col h3 {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.user-col .fa {
+  color: #fa7e75;
+}
+
+/* ------- informatiom ------- */
+
+.info {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.info h1 {
+  color: white;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+/* --------footer-------- */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.icons {
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+  font-size: 30px;
+}
+
+.icons-blue {
+  color: #3f5177;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* -------events--------- */
+.event {
+  width: 70%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.event-col {
+  margin: 0px 20px;
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: 1rem;
+  text-align: center;
+  background: #fff3f3;
+  padding: 35px;
+  padding-left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s;
+}
+
+.event-col img {
+  height: 300px;
+  width: 350px;
+  padding-right: 2rem;
+  border-radius: 20%;
+}
+
+.event-col p {
+  text-align: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.event-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* -------------------Contact us-------------- */
+
+.Contact-Form {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-fields {
+  width: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.input-fields input {
+  width: 354px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+.msg {
+  width: 45%;
+  overflow: hidden;
+  margin-top: 70px;
+  margin: auto;
+}
+.msg textarea {
+  margin: auto;
+  padding: auto;
+  height: 180px;
+  width: 200px;
+}
+.Contact-Form button {
+  padding: 15px 20px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid green;
+  background: blue;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: auto;
+}
+.Contact-Form button:hover {
+  border: 1px solid blue;
+  background: none;
+}

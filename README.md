@@ -4,4 +4,4 @@ Download the Code and Open in VS Code.
 
 Run on Live Server.
 
-Simple college project showing information about clg and Events.
+Simple college project showing information about College and Events.

@@ -1,6 +1,6 @@
 # The Simple Static Website by Using HTML and CSS.
 
-Download the Code and Open in VS Code.
+Download the Code and Open it in VS Code.
 
 Run on Live Server.
 
